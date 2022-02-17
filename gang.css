@@ -1,0 +1,69 @@
+img{
+    border-radius: 20px;
+}
+
+
+
+.H{
+    background-color: darkslateblue;
+    
+}
+.Li{
+    background-color: rgb(7, 155, 155);
+    
+}
+.Be{
+    background-color: aquamarine;
+    
+}
+.Sc{
+    background-color: rgb(255, 147, 108);
+    
+}
+.B{
+    background-color: rgb(255, 255, 203);
+    
+}
+.Al{
+    background-color: orange;
+    
+}
+.He{
+    background-color: blue;
+    
+}
+.F{
+    background-color: rgb(240, 218, 131);
+    
+}
+.La{
+    background-color:rgb(252, 155, 216);
+    
+}
+.Ac{
+    background-color: rgb(139, 32, 238);
+    
+}
+td{
+    font-size: 1vw;
+    height: 8vw;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:720px){
+    table{
+        width: 80vw;
+    }
+    td{
+        font-size: 0.8vw;
+        height: 6hw;
+        text-align: center;
+    }
+}
+
